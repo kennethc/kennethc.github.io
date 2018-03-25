@@ -5,7 +5,7 @@ date: 2018-03-25 19:26:20 +1100
 categories: go
 ---
 
-Go tries to feel like a dynamically typed language while being statically typed. Sometimes this introduces weird things like arrays can be compared but not slices.
+Go tries to feel like a dynamically typed language while being statically typed. Sometimes this introduces weird things like arrays can be compared with each other, but not slices.
 
 {% highlight go %}
 package main
@@ -24,6 +24,7 @@ func main() {
 {% endhighlight %}
 
 The above outputs:
+
 ```
 true
 false
@@ -48,6 +49,7 @@ func main() {
 {% endhighlight %}
 
 And you get:
+
 ```
 prog.go:11:16: invalid operation: a == b (slice can only be compared to nil)
 prog.go:12:16: invalid operation: a == c (slice can only be compared to nil)
