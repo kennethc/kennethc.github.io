@@ -15,7 +15,7 @@ As a plain `for` loop:
 for i := 0; i < 10; i++ {
     fmt.Println(i)
 }
-{% endhightlight %}
+{% endhighlight %}
 
 As a `while` loop:
 
