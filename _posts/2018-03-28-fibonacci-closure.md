@@ -19,7 +19,7 @@ It took me a few attempts to experiment and fail, to finally come to a thought p
 
 After a bit more thinking, I finally came to a [solution][fib-closure]. I needed the "0, 1" seed, I needed a place to store a deferred sequence, and I needed a place to store the next sequence. I needed 4 variables to store a rolling sequence: I needed 2 of them to be my buffer and seed, I needed 1 before my buffer to serve as a deferred return value, and I needed to calculate the next sequence after my seed.
 
-If I initialise my starting state to be "0, 0, 1, 0", during every iteration, I will shift all my values to the left (the "rolling" mechanism), calculate the next sequence based of the values in my buffer, and return the left-most value. This is visualised in the table below:
+If I initialise my starting state to be "0, 0, 1, 0", during every iteration, I will calculate the next sequence based on the values in my buffer, shift all my values to the left (the "rolling" mechanism), and return the left-most value. This is visualised in the table below:
 
 | return | buffer | buffer | compute | output |
 |:------:|:------:|:------:|:-------:|:------:|
