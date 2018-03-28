@@ -24,11 +24,11 @@ If I initialise my starting state to be "0, 0, 1, 0", during every iteration, I 
 | return | buffer | buffer | compute | output |
 |:------:|:------:|:------:|:-------:|:------:|
 | 0      | 0      | 1      | 0       |        |
-| 0      | 1      | 1      | 2       | 0      |
-| 1      | 1      | 2      | 3       | 1      |
-| 1      | 2      | 3      | 5       | 1      |
-| 2      | 3      | 5      | 8       | 2      |
-| 3      | 5      | 8      | 13      | 3      |
+| 0      | 1      | 1      | 1       | 0      |
+| 1      | 1      | 2      | 2       | 1      |
+| 1      | 2      | 3      | 3       | 1      |
+| 2      | 3      | 5      | 5       | 2      |
+| 3      | 5      | 8      | 8       | 3      |
 
 [go-fib]: https://tour.golang.org/moretypes/26
 [fib-closure]: https://github.com/kennethc/kata/tree/master/fibclosure
