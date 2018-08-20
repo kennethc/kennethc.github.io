@@ -63,4 +63,4 @@ The design of the database schema, such as normalisation and indexing, and the c
 
 Prepared statements also offer protection from SQL injection attacks, which in my book is worth any potential decrease in performance!
 
-[sql-test]: https://github.com/kennethc/experiment/sqlquery
+[sql-test]: https://github.com/kennethc/experiment/tree/master/sqlquery
