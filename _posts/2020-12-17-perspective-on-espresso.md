@@ -93,6 +93,6 @@ By now, consistency should be achievable, and we can properly talk about the var
 2. Yield. 1:2 is a good starting point, and you can run less water through to get less extraction or more water for more extraction.
 3. Pressure. Higher pressure should mean faster flow rate and less extraction; lower pressure should mean slower flow rate and more extraction. Some would probably prefer adjusting water temperature before pressure, but for my setup, it is easier to control pressure.
 4. Water temperature. From what I understand, higher temperature should mean more extraction and vice versa.
-5. Dose. Tweak this last, because does actually affects 2 aspects of the process: puck resistance and amount of coffee to extract.
+5. Dose. Tweak this last, because dose actually affects 2 aspects of the process: puck resistance and amount of coffee to extract.
 
 If you have read this far, I thank you and I hope my post has provided some level of educational or entertainment value.
